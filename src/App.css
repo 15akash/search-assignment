@@ -1,0 +1,83 @@
+.App {
+  /* width: 100vw;
+  height: 100vh; */
+  padding: 100px 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.search-card-with-input {
+  display: flex;
+  flex-direction:column;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.input-search-con {
+  background-color: #f1f3f4;
+  border: 0px;
+  /* width: 100%; */
+  padding: 10px;
+}
+
+.search-card {
+
+  height: 300px;
+  /* padding: 10px; */
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.divider {
+  border-bottom: 1px solid #f1f1f1;
+
+}
+
+.search-card-con {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.search-card-con:hover {
+  background-color: #fffedc;
+  cursor: pointer;
+}
+
+.id {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 14;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.search-name {
+  color: blue;
+}
+
+.address {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.search-card::-webkit-scrollbar {
+   width: 5px;
+  /* background-color: #efefef; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+  border-radius: 20px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #efefef; 
+}
+
